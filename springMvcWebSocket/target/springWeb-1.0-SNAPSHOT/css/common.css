@@ -1,0 +1,110 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 表格样式 */
+table{
+	border-collapse: collapse; /* 边线收缩 */
+	table-layout: fixed ;  /* 自动布局还是固定宽度 */
+	word-break: break-all; /* 换行设定 */
+	word-wrap:break-word;  /* 换行折断设定 */
+}
+
+/* 逗号表示同时指定多个目标的样式 */
+table,td,th{
+	border: 1px solid #e1e1e1;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #2965B1;
+}
+
+input,textarea, select{
+	padding: 4px;
+	border-radius:4px;
+	border: 1px solid #ccc;
+	outline: none;
+	tab-size:4;
+}
+
+button{
+	padding: 4px 8px;
+	outline: none;
+	background-color: #fcfcfc;
+	border-radius:4px;
+	border: 1px solid #ccc;
+}
+
+pre{
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    line-height: 1.8;
+    color: #333;
+	white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+	overflow-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+	tab-size:3;
+}
+
+/* 需要换行的文本 */
+.wrap{
+	word-break: break-all;
+	word-wrap: break-word;
+}
+.pad{
+	padding:6px;
+}
+/* 隐藏 */
+.hidden{
+	display:none;
+}
+/* 图片的相对居中显示 */
+.center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translateX(-50%) translateY(-50%);	
+}
+
+/* PlaceHolder设定 */
+input::-webkit-input-placeholder{
+	color:#CCC;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+	color:#CCC;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+	color:#CCC;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+	color:#CCC;
+}		
+
+/* 页码区 */
+.page-index-bar{
+}
+.page-index-bar .page{
+	display: inline-block;
+	text-align: center;
+	background-color: #ea9518;
+	color: #fff;
+	margin: 0px 4px;
+	padding: 4px 8px;
+	border-radius: 1px;
+	font-size:75%;
+}
+.page-index-bar .static{
+	background-color: #888;
+}
+
