@@ -11,7 +11,7 @@
     <spring.version>5.1.7.RELEASE</spring.version>
     <jsonlib.version>2.4</jsonlib.version>
     <spring.security.version>5.1.0.RELEASE</spring.security.version>
-    <mysql-connector.version>5.1.47</mysql-connector.version>
+    <mysql-connector.version>8.0.16</mysql-connector.version>
   </properties>
   <dependencies>
     <dependency>
