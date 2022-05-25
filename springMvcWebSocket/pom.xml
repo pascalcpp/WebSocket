@@ -8,7 +8,7 @@
   <packaging>war</packaging>
   <url>http://maven.apache.org</url>
   <properties>
-    <spring.version>5.1.7.RELEASE</spring.version>
+    <spring.version>5.2.22.RELEASE</spring.version>
     <jsonlib.version>2.4</jsonlib.version>
     <spring.security.version>5.1.0.RELEASE</spring.security.version>
     <mysql-connector.version>5.1.47</mysql-connector.version>
